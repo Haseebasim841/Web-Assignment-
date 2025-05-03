@@ -52,44 +52,96 @@
 </head>
 <body style="font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px;">
 
-    <!-- My Favorite Media Section -->
-    <section id="media" style="padding: 40px; background-color: #f5f5f5; border-radius: 10px; margin-top: 20px;">
-        <h2 style="text-align: center; color: #2c3e50;">My Favorite Media</h2>
-        
-        <div class="media-container">
-            <!-- Movie 1 -->
-            <div class="media-card">
-                <img src="https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg" 
-                     alt="Inception Movie Poster" class="media-img">
-                <h3>Inception (2010)</h3>
-                <p>Sci-Fi/Action · Christopher Nolan</p>
-            </div>
-            
-            <!-- Movie 2 -->
-            <div class="media-card">
-                <img src="https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_.jpg" 
-                     alt="The Shawshank Redemption Poster" class="media-img">
-                <h3>The Shawshank Redemption</h3>
-                <p>Drama · Frank Darabont</p>
-            </div>
-            
-            <!-- Book 1 -->
-            <div class="media-card">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/91Q5dCjc2KL._AC_UL600_SR600,600_.jpg" 
-                     alt="Atomic Habits Book Cover" class="media-img">
-                <h3>Atomic Habits</h3>
-                <p>James Clear · Self-Help</p>
-            </div>
-            
-            <!-- Game 1 -->
-            <div class="media-card">
-                <img src="https://image.api.playstation.com/vulcan/ap/rnd/202010/0222/niC4m1BPk0OXEfQZfZOmEZXV.jpg" 
-                     alt="Ghost of Tsushima" class="media-img">
-                <h3>Ghost of Tsushima</h3>
-                <p>Action/Adventure · PS4</p>
-            </div>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Added CSS for better display */
+        .media-section {
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .media-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .media-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<!-- My Favorite Media Section -->
+<section id="media" class="media-section">
+    <h2>My Favorite Media</h2>
+    
+    <div class="media-grid">
+        <!-- Social Media Column -->
+        <div class="media-card">
+            <h3>Social Media Posts</h3>
+            <ul>
+                <li>Instagram: Art Showcase</li>
+                <li>Twitter: Tech News</li>
+                <li>Facebook: Photography</li>
+                <li>Pinterest: DIY Projects</li>
+                <li>LinkedIn: Career Milestones</li>
+            </ul>
         </div>
-    </section>
+        
+        <!-- Videos Column -->
+        <div class="media-card">
+            <h3>Favorite Videos</h3>
+            <ul>
+                <li>Inspiration Talk</li>
+                <li>Creative Drawing</li>
+                <li>Coding Tutorial</li>
+                <li>Music Playlist</li>
+                <li>Travel Vlog</li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Hobbies and Games Table -->
+    <h3>My Favorites</h3>
+    <table>
+        <tr>
+            <th>My Hobbies</th>
+            <th>Favorite Games</th>
+        </tr>
+        <tr>
+            <td>Reading</td>
+            <td>Chess</td>
+        </tr>
+        <tr>
+            <td>Painting</td>
+            <td>Call of Duty</td>
+        </tr>
+    </table>
+    
+    <!-- Additional Info -->
+    <p><strong>Travelling</strong></p>
+    <p><strong>Favorite Games:</strong> Minecraft, Call of Duty (Online), Chess (Physical)</p>
+</section>
 
 </body>
 </html>
